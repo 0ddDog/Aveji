@@ -97,6 +97,22 @@ header .list ul li a:hover:before {
     bottom: 0;
 }
 
+.h-meb a:hover {
+    color: #DDD7C0;
+}
+
+.h-meb a:hover:before {
+    background: #DDD7C0;
+}
+
+.h-meb a:focus {
+    color: #CBC6B2;
+}
+
+.h-meb a:focus:before {
+    background: #CBC6B2;
+}
+
 .prim {
     display: flex;
     justify-content: space-between;
@@ -170,4 +186,58 @@ header .list ul li a:hover:before {
 .gar .kom2 .p6 {
     width: 170px;
     margin-bottom: 50px;
+}
+
+.how-work {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.how-work .how h2 {
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.how-work .info .alg {
+    width: 340px;
+    margin-top: 13px;
+    margin-bottom: 50px;
+    font-size: 16px;
+}
+
+.how-work .cul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.how-work .cul h3 {
+    font-size: 36px;
+    font-weight: 400;
+    width: 300px;
+}
+
+.how-work .cul p {
+    width: 450px;
+}
+
+.how-work hr {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}   
+
+.prim-room h3 {
+    margin-top: 100px;
+    margin-bottom: 40px;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.prim-room .photo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.prim-room .photo .photos img {
+    width: 99%;
 }
