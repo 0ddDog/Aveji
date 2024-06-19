@@ -367,3 +367,29 @@ header .list ul li a:hover:before {
     display: flex;
     justify-content: space-between;
 }
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+    height: 60px;
+}
+
+footer .prava {
+    text-transform: uppercase;
+    line-height: 25px;
+}
+
+footer .polit {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 28px;
+}
+
+footer .mas {
+    width: 250px;
+    margin-top: 28px;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
