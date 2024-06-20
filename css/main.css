@@ -393,3 +393,103 @@ footer .mas {
     justify-content: space-between;
     text-transform: uppercase;
 }
+
+@media (max-width: 1800px) {
+    .container {
+        width: 1500px;
+    }
+}
+
+@media (max-width: 1500px) {
+    .container {
+        width: 1255px;
+    }
+}
+
+@media (max-width: 1270px) {
+    .container {
+        width: 1000px;
+    }
+
+    .h-meb h1 {
+        font-size: 65px;
+    }
+
+    .gar .kom h2 {
+        font-size: 45px;
+        line-height: 60px;
+    }
+
+    .gar .kom2 .p1, .gar .kom2 .p2, .gar .kom2 .p3 {
+        width: 453px;
+    }
+
+    .gar .kom2 p {
+        font-size: 16px;
+    }
+
+    .gar .kom2 .h1, .gar .kom2 .h2, .gar .kom2 .h3 {
+        font-size: 36px;
+    }
+
+    .how-work .how h2 {
+        font-size: 45px;
+    }
+
+    .how-work .cul h3 {
+        font-size: 30px;
+        width: 299px;
+    }
+
+    .how-work .cul p {
+        width: 300px;
+        font-size: 16px;
+    }
+
+    .prim-room h3 {
+        font-size: 46px;
+    }
+
+    .otzivi h3 {
+        font-size: 46px;
+    }
+
+    .otzivi .recom .otziv {
+        width: 24%;
+        padding: 39px;
+    }
+
+    .otzivi .recom .otziv img {
+        width: 40px;
+    }
+
+    .otzivi .recom .otziv h5 {
+        font-size: 19px;
+        margin-top: 25px;
+        margin-bottom: 15px;
+    }
+
+    .otzivi .recom .otziv p {
+        line-height: 22px;
+        font-size: 16px;
+    }
+
+    .zakaz .zayavka .app {
+        width: 50%;
+    }
+
+    footer .prava {
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    footer .polit { 
+        margin-top: 22px;
+    }
+
+    footer .mas {
+        width: 195px;
+        margin-top: 22px;
+        font-size: 16px;
+    }
+}
