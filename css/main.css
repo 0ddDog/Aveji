@@ -848,4 +848,131 @@ footer .mas {
     .gar .kom h2 {
         display: none;
     }
+
+    .how-work {
+        flex-direction: column;
+        margin-top: 25px;
+    }
+
+    .how-work .how h2 {
+        font-size: 28px;
+    }
+
+    .how-work .info .alg {
+        width: 324px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        font-size: 17px;
+    }
+
+    .how-work .cul {
+        flex-direction: column;
+    }
+
+    .how-work .cul h3 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    .how-work .cul p {
+        width: 380px;
+        font-size: 16px;
+    }
+
+    .prim-room h3 {
+        font-size: 28px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+
+    .prim-room .photo {
+        display: block;
+        column-count: 2;
+        position: relative;
+    }
+
+    .prim-room .photo .photos {     
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .prim-room .photo .two {
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        width: 243px;
+        gap: 14px;
+    }
+
+    .otzivi h3 {
+        margin-top: 390px;
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .otzivi .recom {
+        flex-direction: column;
+    }
+
+    .otzivi .recom .otziv {
+        width: 70%;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 32px;
+        height: 215px;
+    }
+
+    .otzivi .recom .otziv img {
+        width: 35px;
+    }
+
+    .otzivi .recom .otziv h5 {
+        font-size: 18px;
+        margin-top: 30px;
+    }
+
+    .otzivi .recom .otziv p {
+        line-height: 22px;
+        font-size: 16px;
+    }
+
+    .zakaz .zayavka h2 {
+        font-size: 30px;
+        margin-bottom: 10px;
+        text-align: left;
+    }
+
+    .zakaz .zayavka p {
+        text-align: left;
+        margin-bottom: 30px;
+        font-size: 16px;
+    }
+
+    .zakaz .zayavka .app {
+        width: 50%;
+    }
+
+    footer {
+        flex-direction: column-reverse;
+        text-align: center;
+        margin-top: 170px;
+        align-items: center;
+    }
+
+    footer .mas {
+        flex-direction: row;
+        width: 240px;
+        justify-content: space-between;
+        font-size: 18px;
+    }
+
+    footer .polit {
+        font-size: 16px;
+        width: 186px;
+        margin-bottom: 20px;
+    }
+
+    footer .prava {
+        font-size: 18px;
+    }
 }
