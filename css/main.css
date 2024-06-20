@@ -493,3 +493,137 @@ footer .mas {
         font-size: 16px;
     }
 }
+
+@media (max-width: 1020px) {
+    .container {
+        width: 850px;
+    }
+
+    body {
+        font-size: 16px;
+    }
+
+    .h-meb h1 {
+        font-size: 56px;
+    }
+
+    .prim .prim1 p {
+        font-size: 18px;
+        width: 368px;
+    }
+
+    .gar .kom h2 {
+        font-size: 36px;
+        line-height: 48px;
+        width: 350px;
+    }
+
+    .gar .kom2 .h1, .gar .kom2 .h2, .gar .kom2 .h3 {
+        font-size: 33px;
+    }
+
+    .gar .kom2 .p1, .gar .kom2 .p2, .gar .kom2 .p3 {
+        width: 340px;
+    }
+
+    .how-work .how h2 {
+        font-size: 36px;
+    }
+
+    .how-work .cul h3 {
+        font-size: 27px;
+    }
+
+    .prim-room h3 {
+        font-size: 42px;
+    }
+}
+
+@media (max-width: 860px) {
+    .container {
+        width: 740px;
+    }
+
+    header .list {
+        width: 400px;
+    }
+
+    .h-meb h1 {
+        font-size: 46px;
+    }
+
+    .h-meb h1 {
+        width: 585px;
+    }
+
+    .prim .prim1 p {
+        width: 292px;
+    }
+
+    .how-work .cul h3 {
+        font-size: 25px;
+    }
+
+    .how-work .cul p {
+        width: 285px;
+        font-size: 15px;
+    }
+
+    .otzivi h3 {
+        font-size: 42px;
+    }
+
+    .otzivi .recom .otziv {
+        width: 25%;
+        padding: 26px;
+    }
+
+    .otzivi .recom .otziv h5 {
+        font-size: 18px;
+        margin-top: 16px;
+        margin-bottom: 9px;
+    }
+
+    .otzivi .recom .otziv p {
+        line-height: 19px;
+        font-size: 15px;
+    }
+
+    .zakaz .telec {
+        display: none;
+    }
+
+    .zakaz .width {
+        width: 100%;
+    }
+
+    .zakaz .zayavka h2 {
+        font-size: 44px;
+        margin-bottom: 12px;
+        text-align: center;
+    }
+
+    .zakaz .zayavka p {
+        text-align: center;
+        margin-bottom: 34px;
+    }
+
+    .zakaz .zayavka .app {
+        width: 34%;
+    }
+
+    footer .prava {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    footer .polit {
+        margin-top: 17px;
+        font-size: 14px;
+    }
+
+    footer .mas {
+        flex-direction: column;
+        width: max-content;
+    }
+}
