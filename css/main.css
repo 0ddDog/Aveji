@@ -976,3 +976,66 @@ footer .mas {
         font-size: 18px;
     }
 }
+
+@media (max-width: 505px) {
+    .container {
+        width: 390px;
+    }
+
+    header {
+        height: 80px;
+    }
+
+    header img {
+        height: 40px;
+        width: 40px;
+    }
+
+    header .list {
+        width: 235px;
+    }
+
+    .h-meb {    
+        margin-top: 30px;
+    }
+
+    .h-meb h1 {
+        font-size: 40px;
+        width: 382px;
+    }
+
+    .h-meb a {
+        bottom: -145px;
+        right: 210px;
+    }
+
+    .gar {
+        margin-top: 435px;
+    }
+
+    .gar::before {
+        height: 250px;
+        width: 390px;
+        bottom: 665px;
+    }
+
+    .gar::after {   
+        bottom: 690px;
+    }
+
+    .prim-room .photo .two {
+        width: 188px;
+    }
+
+    .prim .prim1 p {
+        width: 368px;
+    }
+
+    .gar .kom2 .p1, .gar .kom2 .p2, .gar .kom2 .p3 {
+        width: 341px;
+    }
+
+    .zakaz .zayavka .app {
+        width: 65%;
+    }
+}
